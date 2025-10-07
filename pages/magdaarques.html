@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>p5 - Josef Albers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      :root {
+        --verd: #387c50;
+        --turquesa: #2a787e;
+        --gris: #a0a097;
+        --groc: #d7a939;
+      }
+      body {
+        overflow: hidden;
+      }
+      header {
+        padding: 0.8em;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+      }
+      a {
+        text-decoration: none;
+        border-bottom: solid white 3px;
+        color: white;
+      }
+      h1,
+      h2,
+      h3 {
+        color: white;
+        font-size: 1.3rem;
+      }
+      #verda {
+        padding: 12vh 11.16vw 1rem 11.16vw;
+        width: 100vw;
+        height: 100vh;
+        background-color: var(--verd);
+      }
+      #turquesa {
+        padding: 11vh 11.16vw 1rem 11.16vw;
+        background-color: var(--turquesa);
+      }
+      #gris {
+        padding: 10vh 11.16vw 1rem 11.16vw;
+        background-color: var(--gris);
+      }
+      #groc {
+        width: 33vw;
+        height: 33vw;
+        background-color: var(--groc);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Homage to the Square: Apparition, 1958</h1>
+      <h2>Josel Albers</h2>
+      <h3>by <a href="#">@magdaarques</a></h3>
+    </header>
+    <div id="verda">
+      <!-- <p>verda</p> -->
+      <div id="turquesa">
+        <!-- <p>turquesa</p> -->
+        <div id="gris">
+          <!-- <p>gris</p> -->
+          <div id="groc">
+            <!-- <p>groc</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
